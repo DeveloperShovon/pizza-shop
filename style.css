@@ -1,0 +1,741 @@
+body{
+    font-family: 'Raleway', sans-serif; 
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.background{
+	
+    background-color: #f9f9f9;
+
+}
+
+.margin{
+	padding: 50px 0px;
+}
+
+
+
+
+
+
+/*.......................... fast hadder ............................. */
+.fast-hadder {
+	background-color: #ae0909;
+}
+.support {
+	color: white;
+	display: block ruby;
+	font-size: 15px;
+}
+.support i {
+	margin: 0px 10px;
+	font-size: 17px;
+}
+.navber{
+    justify-content: right;
+}
+
+.navbar-nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.navbar-nav li a i {
+	margin: 0px 8px;
+	font-size: 17px;
+}
+.navbar-nav li {
+	display: inline-block;
+	margin: 3px 12px;
+	position: relative;
+	border-right: 1px solid #f5f5f554;
+	padding-right: 9px;
+	transition: .4s;
+}
+
+.navbar-nav li:hover{
+    
+    font-weight: bold;
+}
+.navbar-nav li ul {
+	position: absolute;
+	left: 8px;
+	top: 149%;
+	background-color: black;
+	height: auto;
+	width: 124px;
+	padding-left: 0;
+	visibility: hidden;
+    opacity: 0;
+	transition: .4s;
+    border: none;
+}
+ .navbar-nav li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    
+
+ }
+
+.navbar-nav li ul li{
+    display: block;
+}
+.navbar-nav li ul li a:hover {
+   color: #ae0909;
+}
+/* /.............................scound hadder.............................................. */
+
+
+.secound-hadder {
+	padding: 12px 0px;
+
+}
+.pizza-logo{}
+.pizza-logo img{}
+.button-section{}
+.button-section ul {
+	margin-top: 20px;
+	justify-content: right;
+	margin-left: 100px;
+}
+.button-section ul li {
+	display: inline-block;
+	margin: 0px 30px;
+	position: relative;
+	transition: .4s;
+}
+.button-section ul li a {
+	font-weight: 502;
+	color: black;
+	text-decoration: none;
+}
+.icon-section {
+	margin-top: 20px;
+	font-size: 20px;
+	margin-left: 80px;
+}
+.icon-section i{
+	margin: 0px 10px;
+}
+/* DROP DOWN */
+
+
+/* .button-section ul li ul {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	left: -165px;
+	top: 53px;
+	background: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: .4s;
+}
+.button-section ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+.button-section ul li ul li {
+	display: inline-block;
+	padding: 10px 0px;
+}
+.button-section ul li ul li a{
+	transition: .3s;
+}
+.button-section ul li ul li a:hover{
+	color: #ae0909;
+} */
+
+/* .................................. */
+.button-section ul li:hover .drop{
+	visibility: visible;
+	opacity: 1;
+	transform: scaleX(1);
+}
+
+.drop {
+	position: absolute;
+	width: 6in;
+	top: 65px;
+	padding: 28px 0px;
+	background-color: white;
+	height: auto;
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s;
+	padding-left: 23px;
+}
+.dropone {
+	
+}
+.dropone ul {
+	margin-left: -16px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-top: 0px;
+}
+.dropone ul li {
+	
+}
+.drop img {
+	margin-left: -6px;
+}
+
+/*............... hover...................... */
+.dropone h6{
+	margin-left: 15px;
+}
+.dropone h6 a{
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: .1s;
+}
+.dropone h6 a:hover{
+	color: #ae0909;
+}
+.dropone ul li a{
+	color: black;
+	transition: .1s;
+	font-weight: 400;
+}
+.dropone ul li a:hover{
+	color: #ae0909;
+	font-weight: 500;
+	
+}
+.dropone ul li{
+	transition: .2s;
+}
+.dropone ul li:hover{
+	transform: translateX(4px);
+}
+
+
+/*  SECTION-3 */
+/* BANNER SECTION */
+.section2{
+	background-image: url(./image/slider-111.jpg);
+	background-size: cover;
+	background-position: center ;
+}
+.cover {
+	display: flex;
+	height: 8in;
+	justify-content: center;
+	align-items: center;
+}
+.cover-hadder{
+	color: white;
+	text-align: center;
+
+}
+
+.cover-hadder h1 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.cover-hadder p {
+	font-size: 15px;
+	color: #c1baba;
+	margin-top: 20px;
+}
+/* common button */
+.common-button{
+	margin-top: 20px;
+}
+.common-button a {
+	background: #a90101;
+	border: 1px solid #a90101;
+	padding: 8px 25px;
+	text-align: center;
+	font-weight: bold;
+}
+.common-button a:hover{
+	color: white;
+	background-color: black;
+	border-color: black;
+}
+
+
+/* .............................section 4..................... */
+
+.cover-container {
+	display: flex;
+	background-color: white;
+	padding: 80px 100px;
+	margin-top: -239px;
+	border: 1px solid rgb(237, 237, 237);
+}
+.cover-container {
+	display: flex;
+
+	padding: 80px 100px;
+}
+.text-conatiner {
+	margin-left: 30px;
+}
+.text-conatiner h2{
+	margin-top: 30px;
+}
+.text-conatiner p {
+	font-size: 13px;
+	line-height: 18px;
+	color: #686565;
+	margin: 15px 0px;
+}
+.text-conatiner h2 {
+	font-weight: bold;
+}
+.img-container{}
+.img-container img{
+	transition: .4s;
+}
+.img-container img:hover{
+	transform: scale(1.1) ;
+}
+/*...................... animated button................ */
+
+.regular-btn{
+	margin-bottom: 20px;
+}
+.regular-btn a {
+	text-decoration: none;
+	color: white;
+	background: #d00c0cf5;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	
+}
+
+.regular-btn a::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: white;
+	color: rgb(0, 0, 0) !important;
+	width: 100%;
+	height: 0%;
+	transition: all .5s ease;
+	transform: translate(-50%,-50%);
+	/* border: 1px 0px solid #a90101; */
+	
+	
+}
+.regular-btn a:hover::before{
+	height:94%;
+	/* color: black; */
+	
+
+}
+
+/*.......... primary button .........*/
+.primary-btn{
+	margin-top: 60px;
+}
+.primary-btn a i{
+	color: #a90101;
+	margin: 0px 9px;
+}
+.primary-btn a span{
+	color: #a90101;
+}
+.primary-btn a{
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	letter-spacing: 1px;
+}
+
+.primary-btn a::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+	color: black !important;
+	width: 100%;
+	height: 0%;
+	transition: all .5s ease;
+	transform: translate(-50%,-50%);
+	
+	
+}
+.primary-btn a:hover::before{
+	height:94%;
+	
+
+}
+
+/* <!-- ....................................section-5............................... -->
+      <!--                          OUR SPECIALITIES   .....              --> */
+
+	  
+	 
+
+.SPECIALITIE i {
+	font-weight: 501;
+	font-size: 35px;
+	color: #4c4949;
+	margin-bottom: 15px;
+}
+.SPECIALITIE h4 {
+	font-size: 26px;
+	font-weight: 501;
+	color: #d20000;
+}
+.SPECIALITIE p {
+	line-height: 15px;
+	color: #565454;
+}
+/* .....................card section........ .......... */
+
+.card-section{
+	margin: 50px 0px;
+	
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	border-radius: 10px;
+}
+.card-icon{
+	position: absolute;
+	z-index: 1;
+	margin-left: 50px;
+}
+
+.card-icon ul li {
+	display: inline-block;
+	transform: translateY(20px);
+	transition: all .8s cubic-bezier(.6,-0.28,.74,.05);
+	opacity: 0;
+}
+.card-icon ul li a {
+	font-size: 20px;
+	color: white;
+	background-color: #827d7d;
+	margin: 0px 4px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 9px 11px;
+	transition: .4s;
+}
+
+.card-img{
+	position: relative;
+	background-color: white;
+}
+.card-img img{
+	width: 100%;
+	transition: .4s all ease;
+}
+.card-img img:hover{
+	transform: translateY(10px);
+}
+.card-text{
+	text-align: center;
+	background-color: white;
+}
+.star-icon {
+	color: #bd0000;
+	padding-top: 10px;
+}
+.star-icon i {
+	font-size: 12px;
+	
+}
+.card-text h4 {
+	font-size: 16px;
+	margin: 10px 0px;
+	font-weight: bold;
+}
+.card-text p {
+	font-size: 13px;
+	letter-spacing: 1px;
+	padding: 0px 20px;
+}
+.card-text h5 {
+	padding-bottom: 30px;
+	color: #b20000;
+	font-weight: bold;
+}
+
+/* card-hover */
+.card-icon ul li a:hover{
+	background-color: #a90101;
+}
+.card-section:hover .card-icon ul li {
+	transform: translateY(140px);
+	opacity: 1;
+	
+}
+.card-section:hover .card-icon ul li:nth-child(1){
+	transition: all .4s ease-in-out;
+}
+.card-section:hover .card-icon ul li:nth-child(2){
+	transition: all .5s ease-in-out;
+}
+.card-section:hover .card-icon ul li:nth-child(3){
+	transition: all .6s ease-in-out;
+}
+.card-section:hover .card-icon ul li:nth-child(4){
+	transition: all .7s ease-in-out;
+}
+
+
+/* ..............................section-7 .................*/
+/* ..............................accumsun auctor......................... */
+
+.img{}
+.img img {
+	width: 100%;
+}
+.accumsun {
+	
+	margin: 50px;
+}
+.accumsun h4 {
+	text-transform: uppercase;
+	margin-bottom: 23px;
+	font-size: 20px;
+}
+.accumsun h5 {
+	color: #bf0707;
+	font-size: 22px;
+	font-weight: bold;
+}
+.accumsun h6{}
+.accumsun span{}
+.accumsun p {
+	color: #6b7075;
+	font-size: 15px;
+}
+.time-section {
+	border: 2px solid black;
+	padding: 8px;
+	width: 13cm;
+	text-align: center;
+	margin-left: 150px;
+	margin-bottom: 25px;
+}
+
+.time-section span {
+	font-weight: bold;
+	font-size: 20px;
+}
+.time-section h5 {
+	color: #918989;
+	font-size: 15px;
+	margin-top: 9px;
+	margin-left: 13px;
+}
+.time-section h6 {
+	font-size: 28px;
+	margin: 0px 20px;
+}
+
+
+/* .....................................section-7........... */
+/* .........card slider................ */
+
+.section-seven{
+	background-color: #f9f9f9;
+}
+.card{
+    padding: 0;
+    
+  }
+
+  
+/* .....................................section-8........... */
+/* .........TODAY’S MENU ................ */
+
+.menu {
+	padding: 15px 0px;
+	border-bottom: 2px solid #e3d6d51c;
+}
+.menu-img img {
+	width: 100%;
+	transition: .4s;
+}
+.menu:hover .menu-img img{
+	transform: scale(1.1);
+}
+.menu:hover .menu-text h4{
+	color: #a90101;
+}
+.menu-text {
+	margin-top: 30px;
+}
+.menu-text h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: .4s;
+}
+.menu-text p {
+	color: #979a9d;
+	line-height: 22px;
+	font-size: 15px;
+}
+.menu-text h5 {
+	color: #aa1515;
+	font-weight: bold ;
+	position: relative;
+}
+
+
+/* ............................SECTION-9............. */
+/* ...........................LATEST FROM THE BLOG.................. */
+
+.section-nine {
+	background-color: #f9f9f9;
+}
+.blog{
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+		margin: 55px 0px;
+		background-color: #ffffff;
+}
+.blog:hover .img-blog img{
+	transform: scale(1.1);
+}
+.img-blog{
+	overflow: hidden;
+}
+.img-blog img {
+	width: 100%;
+	transition: .4s all ease-in-out;
+}
+.text-blog {
+	margin: 30px 0px;
+	padding: 0px 20px;
+}
+.text-blog h3 {
+	font-size: 20px;
+	font-weight: bold;
+	transition: .4s all ease-in-out;
+}
+.blog:hover .text-blog h3{
+	color: #bd0000;
+}
+.text-blog p{
+	color: rgb(95, 94, 94);
+	padding-top: 10px;
+}
+.blog-button{
+	padding-bottom: 40px;
+	padding-top: 20px;
+
+}
+.blog-button a {
+	color: black;
+	text-decoration: none;
+	transition: .4s all ease-in;
+}
+.blog:hover .blog-button a{
+	color: #bd0000;
+}
+.blog-button a i {
+	margin-left: 10px;
+}
+
+
+
+
+/* .............................section-10.............. */
+
+
+.section-10 {
+	padding: 50px 0px;
+}
+
+.icon i{
+	font-size: 50px;
+	color: #b3b2b2;
+	transition: .3s;
+}
+.icon i:hover{
+	transform: scale(0.7);
+}
+.icon-section h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #0000009c;
+	transition: .3s;
+}
+.icon-section h4:hover{
+	color: #a90101;
+}
+.icon-section p {
+	font-size: 15px;
+	color: #00000082;
+}
+
+
+
+
+
+/* ....................portfollio - slider............... */
+/* ......................section-10................... */
+
+
+.portfolio{
+	padding: 50px 0px;
+}
+.portfollio-bg{
+	background-color:#f9f9f9;
+}
+.porfolio-img{
+	text-align: center;
+	margin-top: 30px;
+}
+.porfolio-img img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.porfolio-text{
+	margin: 30px 0px;
+}
+.porfolio-text h5 {
+	margin-top: 40px;
+	font-size: 23px;
+	font-weight: 501;
+
+	color: #403f3fdb;
+}
+.porfolio-text h5:hover{
+	color: #aa1515;
+}
+.porfolio-text h6{
+	color: #aa1515;
+}
+.porfolio-text p{
+	color: #686565;
+
+
+}
+
+
+/* .............................section-11.......................... */
+/* .............................sticker......................... */
+.sticker-section {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+}
+.sticker img{
+	transition: .3s;
+}
+.sticker img:hover{
+	transform: scale(1.1);
+}
