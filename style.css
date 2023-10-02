@@ -310,6 +310,7 @@ body{
 	font-weight: bold;
 	font-size: 15px;
 	position: relative;
+	overflow: hidden;
 	
 }
 
@@ -324,6 +325,9 @@ body{
 	height: 0%;
 	transition: all .5s ease;
 	transform: translate(-50%,-50%);
+	z-index: 1;
+	
+	
 	/* border: 1px 0px solid #a90101; */
 	
 	
@@ -334,6 +338,8 @@ body{
 	
 
 }
+
+
 
 /*.......... primary button .........*/
 .primary-btn{
@@ -738,4 +744,135 @@ body{
 }
 .sticker img:hover{
 	transform: scale(1.1);
+}
+
+/* .......................section 12........................... */
+/* ......................fooater 1.............. */
+
+.footer {
+	background: #1f2034;
+	padding: 50px 0px;
+	border-bottom: 1px solid #9996;
+}
+.footer-1 {
+	margin-left: 60px;
+}
+.footer-1 a {
+	text-decoration: none;
+}
+.footer-1 a h4 {
+	font-size: 20px;
+	/* text-decoration: none; */
+	color: white;
+	font-style: none;
+	margin-bottom: 20px;
+}
+.footer-1 a h6 {
+	color: #999;
+	list-style: none;
+	margin-bottom: 10px;
+	transition: .3s;
+}
+.footer-1 a h6:hover{
+	color: #d20000;
+}
+
+
+/* ..............section 13................................ */
+/*                 footeer2......................... */
+
+
+.footer {
+	background: #1f2034;
+	padding: 50px 0px;
+	border-bottom: 1px solid #9996;
+}
+.footer-img{}
+.footer-img img{}
+.footer-text p{
+	color: #919191;
+	line-height: 30px;
+	margin: 20px 0px;
+	font-size: 16px;
+}
+.footer-icon{}
+.footer-icon a {
+	background: #43414199;
+	margin-right: 15px;
+	width: 40px;
+	height: 40px;
+	/* padding: 12px; */
+	border-radius: 50%;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+	padding-top: 8px;
+	color: white;
+	transition: .3s;
+}
+.footer-icon a:hover{
+	background-color: #bd0000;
+	color: white;
+}
+.footer-icon a i{}
+
+.contract{
+	color: white;
+}
+
+.contract h4 {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.contract-icon{}
+.two-icon {}
+.two-icon i {
+	background: #43414199;
+	margin-right: 15px;
+	width: 40px;
+	height: 40px;
+	/* padding: 12px; */
+	border-radius: 50%;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 11px;
+	padding-top: 12px;
+	color: white;
+	transition: .3s;
+}
+.two-icon i:hover{
+	background-color: #bd0000;
+	color: white;
+}
+.text{}
+.text h6 {
+	margin-top: 15px;
+	color: #919191;
+}
+.time{
+	color: white;
+}
+.time h4 {
+	font-size: 20px;
+	margin-bottom: 45px;
+}
+.time h6{
+	color: #919191;
+}
+.time h6 span{}
+.time img {
+	margin-top: 50px;
+}
+.reserve{
+	background: #1f2034;
+	padding: 20px 0px;
+}
+.shovon{}
+.shovon h5 {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.shovon h5 span{
+	color: #d20000;
 }
