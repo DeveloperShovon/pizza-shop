@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../IT javascript"
+		},
+		{
+			"path": "../home practice js"
+		},
+		{
+			"path": "D:/z/web project/website project/blood donation"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pizza-shop"
+	}
+}
